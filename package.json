@@ -1,0 +1,25 @@
+{
+  "name": "html",
+  "version": "1.0.0",
+  "description": "Here is the code for the jujutsuinvesting.com website, the commits and code itself is a mess but someone requested it, if you want to make something similar make sure you add a .env file with an access token to the folder so that it can use json web tokens properly",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express.js": "^1.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "knex": "^3.1.0",
+    "pg": "^8.12.0"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
